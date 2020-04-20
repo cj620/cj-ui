@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/cj620/cj-ui/issues"
   },
-  "homepage": "https://github.com/cj620/cj-ui#readme"
+  "homepage": "https://github.com/cj620/cj-ui#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
