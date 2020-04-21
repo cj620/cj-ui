@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://majordong.github.io/cj/">
-    <img width="200" src="./img/cj.png">
+  <a href="https://cj620.github.io/cj-ui/">
+    <img width="200" src="./img/cj.jpg">
   </a>
 </p>
 
 <h1 align="center">
-  <a href="https://majordong.github.io/cj/">cj UI</a>
+  <a href="https://cj620.github.io/cj-ui/">cj UI</a>
 </h1>
 
 <div align="center">

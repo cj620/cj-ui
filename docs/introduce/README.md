@@ -1,4 +1,7 @@
 # cj-620 UI
+[![Build Status](https://travis-ci.org/cj620/cj-ui.svg?branch=master)](https://travis-ci.org/cj620/cj-ui)
+![](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![](https://img.shields.io/badge/license-MIT-000000.svg)
 
 cj-620 UI 是一个小型的 UI 框架，提供了一些常用组件，适合桌面端使用。
 
@@ -6,7 +9,7 @@ cj-620 UI 是一个小型的 UI 框架，提供了一些常用组件，适合桌
 
 ## 关于cj-620
 
-这是我在学习 Vue 时尝试造的轮子，一个 UI 框架，参考了 ELement 和 Ant Design 进行实现，
+这是我在学习 Vue 时尝试造的轮子，一个 UI 框架，参考了 ELement 和 vuepress 进行实现，
 希望能对你有用。
 
 ## 部分组件的实现思路
