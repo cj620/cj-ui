@@ -1,11 +1,5 @@
-<p align="center">
-  <a href="https://cj620.github.io/cj-ui/">
-    <img width="200" src="img/cj.jpg">
-  </a>
-</p>
-
 <h1 align="center">
-  <a href="https://cj620.github.io/cj-ui/">cj UI</a>
+  <a href="https://cj620.github.io/cj-ui/">cj-620</a>
 </h1>
 
 <div align="center">
