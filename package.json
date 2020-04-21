@@ -4,7 +4,8 @@
   "description": "这是一个UI框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,12 @@
     "@vue/component-compiler-utils": "^3.1.2",
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
+    "karma": "^5.0.2",
+    "karma-chai": "^0.1.0",
+    "karma-chai-spies": "^0.1.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.0",
+    "karma-sinon-chai": "^2.0.2",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3",
     "vue-template-compiler": "^2.6.11"
