@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://cj620.github.io/cj-ui/">
-    <img width="200" src="./img/cj.jpg">
+    <img width="200" src="img/cj.jpg">
   </a>
 </p>
 
