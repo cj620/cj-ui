@@ -12,7 +12,7 @@
 
 An easy UI components based on Vue.
 
-[![Build Status](https://travis-ci.org/MajorDong/cj.svg?branch=master)](https://travis-ci.org/MajorDong/cj)
+[![Build Status](https://travis-ci.org/cj620/cj-ui.svg?branch=master)](https://travis-ci.org/cj620/cj-ui)
 ![](https://img.shields.io/badge/language-JavaScript-yellow.svg)
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 </div>
@@ -50,7 +50,7 @@ cj UI 是一个小型的 UI 框架，提供了一些常用组件，适合桌面�
     export default {
         name: 'app',
         components: {
-            'o-button': Button
+            'c-button': Button
         }
     }
 
@@ -64,8 +64,8 @@ cj UI 是一个小型的 UI 框架，提供了一些常用组件，适合桌面�
 
 ## 联系方式
 
-Email: odsts@outlook.com
+Email: cj6209577@sina.com
 
 ## 贡献代码
 
-[Pull request](https://github.com/MajorDong/cj/pulls)
+[Pull request](https://github.com/cj620/cj-ui/pulls)
