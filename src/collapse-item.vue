@@ -2,7 +2,7 @@
   <div class="collapseItem">
     <div class="title" @click="toggle">
       <span>{{title}}</span>
-    <o-icon class="icon" :class="{activeClass:iconActive,closeClass:iconClose}" name="right"></o-icon>
+    <c-icon class="icon" :class="{activeClass:iconActive,closeClass:iconClose}" name="right"></c-icon>
     </div>
     <transition name="slide">
       <div class="content" v-if="open" >

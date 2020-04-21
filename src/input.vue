@@ -7,7 +7,7 @@
       @blur="$emit('blur', $event.target.value)"
     />
     <template v-if="error">
-      <o-icon name="error" class="icon"></o-icon>
+      <c-icon name="error" class="icon"></c-icon>
       <span class="message">{{error}}</span>
     </template>
   </div>

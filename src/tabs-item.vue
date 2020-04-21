@@ -6,7 +6,7 @@
 
 <script>
 export default {
-   name: 'cj-tabs-item',
+   name: 'c-tabs-item',
    data(){
       return{ //不需要用户传值，自身维护
          active: false,

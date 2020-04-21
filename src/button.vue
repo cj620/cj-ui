@@ -1,7 +1,7 @@
 <template>
   <button class="c-button" :class="{[`icon-${iconPosition}`]: true}" @click="$emit('click')">
-    <o-icon class="icon" v-if="icon && !loading" :name=icon></o-icon>
-    <o-icon v-if="loading" class="loading icon" name="loading"></o-icon>
+    <c-icon class="icon" v-if="icon && !loading" :name=icon></c-icon>
+    <c-icon v-if="loading" class="loading icon" name="loading"></c-icon>
     <!-- 插槽上不能添加clss -->
     <div class="content">
          <slot></slot> 

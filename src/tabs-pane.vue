@@ -6,7 +6,7 @@
 
 <script>
 export default {
-   name:'cj-tabs-pane',
+   name:'c-tabs-pane',
    inject:['eventBus'],
    data(){
       return{
