@@ -1,18 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cj-ui</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"> -->
+  <title>Orange</title>
   <style>
-    *{margin: 0;padding: 0;box-sizing: border-box;}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    #app {
+      margin: 20px 0px
+    }
+
+    .box {
+      margin: 20px 0px;
+    }
+
+    .demo {
+      border: 1px solid red;
+      min-height: 100px;
+    }
   </style>
 </head>
+
 <body>
   <div id="app">
-    <c-button></c-button>
+
+    <div class="box">
+      <c-layout style="height: 100vh;">
+        <c-header class="demo">header</c-header>
+        <c-content class="demo">content</c-content>
+        <c-footer class="demo">footer</c-footer>
+      </c-layout>
+    </div>
+
+    <div class="box">
+      <c-layout style="height: 100vh;">
+        <c-sider class="demo">sider</c-sider>
+        <c-layout>
+          <c-header class="demo">header</c-header>
+          <c-content class="demo">content</c-content>
+          <c-footer class="demo">footer</c-footer>
+        </c-layout>
+      </c-layout>
+    </div>
+
+    <div class="box">
+      <c-row gutter="10">
+        <c-col span="10" offset="10">1</c-col>
+        <c-col span="2" >2</c-col>
+        <c-col span="2">2</c-col>
+      </c-row>
+    </div>
+
+
+    <div class="box">
+      <c-input value="NORMAL"></c-input>
+      <c-input value="READONLY" readonly></c-input>
+      <c-input value="DISABLED" disabled></c-input>
+      <c-input value="ERROR" error="Error message"></c-input>
+    </div>
+    <div class="box">
+      <c-input v-model="message"></c-input>
+      <p style="margin-top: 5px;">{{message}}</p>
+    </div>
+    <div class="box">
+      <c-button :loading="loading1" @click='loading1 = !loading1'>按钮</c-button>
+      <c-button icon="settings" :loading="loading2" @click='loading2 = !loading2'>按钮</c-button>
+      <c-button icon="settings" icon-position="right" :loading="loading3" @click='loading3 = !loading3'>
+        按钮
+      </c-button>
+      <c-button icon="awesome">点赞</c-button>
+      <c-button icon="download">下载</c-button>
+      <c-button-popple>涟漪按钮</c-button-popple>
+    </div>
+    <div class="box">
+      <c-button-group>
+        <c-button icon="left">上一页</c-button>
+        <c-button>更多</c-button>
+        <c-button icon="right" icon-position="right">下一页</c-button>
+      </c-button-group>
+
+    </div>
+    <div class="box">
+      <button @click="showToastTop">Top</button>
+      <button @click="showToastMiddle">Middle</button>
+      <button @click="showToastBottom">Bottom</button>
+    </div>
+    <div class="box">
+      <c-tabs :selected.sync="selectedTab">
+        <!-- 修饰符等价于 -->
+        <!-- <c-tabs :selected="selectedTab" @updata:selected="selectedTab = $event">  -->
+        <c-tabs-head>
+
+          <c-tabs-item name="1" disabled>
+            Tab 1
+          </c-tabs-item>
+          <c-tabs-item name="2">
+            Tab 2
+          </c-tabs-item>
+          <c-tabs-item name="3">
+            Tab 3
+          </c-tabs-item>
+          <template slot="actions">
+            <button>设置</button>
+          </template>
+        </c-tabs-head>
+        <c-tabs-body>
+          <c-tabs-pane name="1">
+            Content of Tab Pane 1
+          </c-tabs-pane>
+          <c-tabs-pane name="2">
+            Content of Tab Pane 2
+          </c-tabs-pane>
+          <c-tabs-pane name="3">
+            Content of Tab Pane 3
+          </c-tabs-pane>
+        </c-tabs-body>
+      </c-tabs>
+    </div>
+    <div class="box" @click="yyy">
+      <c-popover position="top">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击上</c-button>
+      </c-popover>
+      <c-popover position="bottom">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击下</c-button>
+      </c-popover>
+      <c-popover position="left">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击左</c-button>
+      </c-popover>
+      <c-popover position="right">
+        <template  v-slot:content="{close,sdx}">
+          <!-- 可以给scope的对象取名或直接解构 -->
+          <div>
+            {{sdx}} popover
+            <c-button @click="close">Close</c-button>
+          </div>
+        </template>
+        <c-button>点击右</c-button>
+      </c-popover>
+    </div>
+    <div class="box" style="margin-top: 50px;">
+      <c-popover position="top" trigger="hover">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击上</c-button>
+      </c-popover>
+      <c-popover position="bottom" trigger="hover">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击下</c-button>
+      </c-popover>
+      <c-popover position="left" trigger="hover">
+        <template slot="content">
+          <div>popover内容</div>
+        </template>
+        <c-button>点击左</c-button>
+      </c-popover>
+      <c-popover position="right" trigger="hover">
+        <template slot="content">
+          <div>popover内容
+          </div>
+        </template>
+        <c-button>点击右</c-button>
+      </c-popover>
+    </div>
+    <div class="box" style="margin: 20px;">
+      <c-collapse :selected.sync="selectedItem" single>
+        <c-collapse-item title="标题1" name="1">content1
+        </c-collapse-item>
+        <c-collapse-item title="标题2" name="2">content2</c-collapse-item>
+        <c-collapse-item title="标题3" name="3">content3</c-collapse-item>
+      </c-collapse>
+      {{selectedItem}}
+    </div>
   </div>
-  
- <script src="./src/app.js"></script>
+  <script src="./src/app.js"></script>
 </body>
+
 </html>

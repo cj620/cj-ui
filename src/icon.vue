@@ -1,5 +1,5 @@
 <template>
-  <svg class="cj-icon">
+  <svg class="c-icon">
         <use :xlink:href="`#i-${name}`"></use>
     </svg>
 </template>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style scoped>
-  .cj-icon{
+  .c-icon{
       width: 1em; height: 1em;
        vertical-align: -0.15em;
        fill: currentColor;
