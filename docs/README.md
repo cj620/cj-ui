@@ -9,6 +9,6 @@ features:
 - title: Vue驱动
   details: 使用 Vue + Parcel 进行搭建开发
 - title: 持续集成
-  details: 单元测试，使用travis-ci持续集成。
+  details: 单元测试，使用travis-ci持续集成
 footer: MIT Licensed | Copyright © 2020-present cj620
 ---
