@@ -1,14 +1,14 @@
 <template>
   <div>
     <c-collapse :selected.sync="selectedItem" single>
-        <c-collapse-item title="This is panel header 1" name="1">
-          <div>Orange is a kind of fruit</div>
+        <c-collapse-item title="I am cxk 1" name="1">
+          <div>I can sing</div>
         </c-collapse-item>
-        <c-collapse-item title="This is panel header 2" name="2">
-          <div>Orange is a kind of fruit</div>
+        <c-collapse-item title="I am cxk 2" name="2">
+          <div>I can dance</div>
         </c-collapse-item>
-        <c-collapse-item title="This is panel header 3" name="3">
-          <div>Orange is a kind of fruit</div>
+        <c-collapse-item title="I am cxk 3" name="3">
+          <div>and basketball</div>
         </c-collapse-item>
       </c-collapse>
   </div>
