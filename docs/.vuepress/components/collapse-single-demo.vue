@@ -2,7 +2,7 @@
   <div>
     <c-collapse :selected.sync="selectedItem" single>
         <c-collapse-item title="I am cxk 1" name="1">
-          <div>I can sing</div>
+          <div>I can rap</div>
         </c-collapse-item>
         <c-collapse-item title="I am cxk 2" name="2">
           <div>I can dance</div>
