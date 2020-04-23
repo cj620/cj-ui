@@ -17,7 +17,7 @@ export default {
          type: String,
          default: 'horizontal',
          validator(value) {
-            return ['horizontal','vertical'].indexOf(value) >= 0
+            return ['horizontal','vertical'].indexOf(value) >= 0  //验证在两种类型之内
          }
       }
    },
