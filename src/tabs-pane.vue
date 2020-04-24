@@ -47,7 +47,7 @@ export default {
       &.active{
          color: #448ef7;
          padding: 2em;
-         animation: pane 0.5s;
+         animation: pane 0.5s
       }
    }
 </style>
