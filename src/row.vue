@@ -25,9 +25,9 @@ export default {
   }
 
 }
-//var div = document.createElement('div') created 在内存里生成1
-//var divChlid = document.createElement('div')2
-//document.body.appendChild(divChlid) mounted 挂载到页面3
+//var div = document.createElement('div') created  在内存里生成 1
+//var divChlid = document.createElement('div') 2
+//document.body.appendChild(divChlid) mounted 挂载到页面 3
 //document.body.appendChild(div)4
 //顺序1234
 </script>

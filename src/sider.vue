@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     hideSide() {
-      this.visible = !this.visible;
+      this.visible = !this.visible
     }
   }
 };
@@ -36,7 +36,7 @@ export default {
     transition: all 0.5s;
   }
   .fade-enter, .fade-leave-to {
-    margin-left: -200px;
+    margin-left: -200px
   }
 }
 </style>
