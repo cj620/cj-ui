@@ -58,7 +58,7 @@ export default {
   border-radius: 4px;
   border: 1px solid  #999;
   background: white;
-  min-width: 68px;
+  min-width: 68px
   &:hover {
     border-color: #666;
   }
