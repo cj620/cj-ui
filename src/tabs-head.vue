@@ -38,7 +38,7 @@ export default {
   position: relative;
   border-bottom: 1px solid #ddd;
   > .actions-wrapper {
-    margin-left: auto;
+    margin-left: auto
   }
 }
 .line {
