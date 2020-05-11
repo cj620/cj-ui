@@ -17,8 +17,7 @@ import TabsBody from './src/tabs-body'
 import TabsItem from './src/tabs-item'
 import TabsPane from './src/tabs-pane'
 import Popover from './src/popover'
-import Collapse from './src/collapse'
-import CollapseItem from './src/collapse-item'
+
 
 export {
     Button,
@@ -39,7 +38,6 @@ export {
     TabsItem,
     TabsBody,
     TabsHead,
-    Popover,
-    Collapse,
-    CollapseItem
+    Popover
+  
 }
