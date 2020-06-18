@@ -58,7 +58,7 @@ export default {
   border-radius: 4px;
   border: 1px solid  #999;
   background: white;
-  min-width: 68px
+  min-width: 68px;
   &:hover {
     border-color: #666;
   }
@@ -76,5 +76,6 @@ export default {
     >.icon{order:2; margin-right:0; margin-left: 0.3em;}
   }
 }
+
 </style>
 

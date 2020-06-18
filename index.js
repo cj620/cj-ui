@@ -39,7 +39,7 @@ export {
     TabsItem,
     TabsBody,
     TabsHead,
-    Popover，
+    Popover,
     Collapse,
     CollapseItem
   

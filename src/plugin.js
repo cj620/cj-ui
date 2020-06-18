@@ -17,9 +17,7 @@ export default{
       })
     }
   }
-} //使用插件 避免import 避免prototype.$toast
-
-
+} 
 function createToast({Vue,message,propsData,onclose}){
   let Constructor = Vue.extend(Toast) //Vue动态创建toast组件
   let toast = new Constructor({
