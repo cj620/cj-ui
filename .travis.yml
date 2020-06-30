@@ -6,7 +6,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  local_dir: dist # 项目打包后生成的文件的目录
+  local_dir: docs/.vuepress/dist # 项目打包后生成的文件的目录
   github-token: $GITHUB_TOKEN # 这里这个变量就是刚才配置 token 时填写的内容
   keep-history: true
   on:
