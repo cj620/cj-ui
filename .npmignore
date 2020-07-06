@@ -1,0 +1,10 @@
+docs/
+.cache/
+test/
+node_modules/
+img/
+test/
+.travis.yml/
+deploy.sh/
+.html/
+

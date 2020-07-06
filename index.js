@@ -42,5 +42,4 @@ export {
     Popover,
     Collapse,
     CollapseItem
-  
 }

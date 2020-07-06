@@ -5,8 +5,7 @@
 <div align="center">
 
 An easy UI components based on Vue.
-
-[![Build Status](https://travis-ci.org/cj620/cj-ui.svg?branch=master)](https://travis-ci.org/cj620/cj-ui)
+[![Build Status](https://travis-ci.com/cj620/cj-ui.svg?branch=master)](https://travis-ci.org/cj620/cj-ui)
 ![](https://img.shields.io/badge/language-JavaScript-yellow.svg)
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 </div>
