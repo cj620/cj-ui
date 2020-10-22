@@ -12,7 +12,7 @@ An easy UI components based on Vue.
 
 cj UI 是一个小型的 UI 框架，提供了一些常用组件，适合桌面端使用。
 
-组件：Button按钮、Input输入框、Grid网格、Layout布局、Toast吐司、Tabs标签页、Popover气泡卡片、Collapse折叠面板
+组件：Button按钮、Input输入框、Grid网格、Layout布局、Toast吐司、Tabs标签页、Popover气泡卡片、Collapse折叠面板。
 
 ## 介绍
 
